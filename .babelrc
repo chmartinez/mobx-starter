@@ -1,0 +1,23 @@
+{
+	"presets": [
+		"es2015",
+		"stage-1",
+		"next/babel"
+	],
+	"plugins": [
+		"transform-decorators-legacy",
+		[
+			"module-resolver",
+			{
+				"root": [
+					".",
+					"./components"
+				],
+				"extensions": [
+					".js",
+					".json"
+				]
+			}
+		]
+	]
+}
